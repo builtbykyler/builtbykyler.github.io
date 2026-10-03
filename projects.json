@@ -71,8 +71,8 @@
       "Cryptography"
     ],
     "demo": "https://youtu.be/fqdy0rccu-Q",
-    "image": "kamui.png",
-    "caption": "Fulfilled request · 92,398, dice roll, coin flip, and full VRF output · demo at 2:22",
+    "image": "kamui-fulfilled.png",
+    "caption": "Fulfilled request · 92,398, dice roll, coin flip, and full VRF output · demo at 2:21",
     "alt": "Kamui fulfilled request showing Random number generated, result 92,398, dice roll 6, coin flip Tails, and expanded 256-bit VRF output",
     "demo_label": "Watch demo",
     "source": "https://github.com/mangekyou-labs/kamui",
