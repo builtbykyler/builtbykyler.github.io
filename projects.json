@@ -60,20 +60,23 @@
     "id": "kamui",
     "name": "Kamui",
     "category": "Verifiable randomness",
-    "status": "VRF architecture",
-    "desc": "Verifiable randomness with a clear request-to-result lifecycle.",
-    "detail": "The proposed architecture binds each request to a future drand beacon. An oracle waits for that round, submits an ECVRF proof, and the program verifies it before delivering randomness to the application.",
-    "value": "The specification includes fee escrow, callback delivery, a query fallback, and refunds for requests that time out.",
+    "status": "Implemented on Solana",
+    "desc": "The first elliptic-curve VRF verification on Solana.",
+    "detail": "Implemented an elliptic-curve verifiable random function (ECVRF) with on-chain proof verification on Solana. The oracle generates and submits the proof; the program verifies it and stores the fulfilled randomness for applications to consume.",
+    "value": "Rust cryptography and Solana proof verification, an oracle fulfillment service, and a TypeScript demo that displays the generated random number and derived dice and coin outcomes.",
     "stack": [
       "Rust",
       "Solana",
       "TypeScript",
       "Cryptography"
     ],
-    "demo": null,
-    "image": "kamui-sequence.svg",
-    "caption": "Five-step sequence · proposed architecture from the Kamui VRF specification",
-    "alt": "Kamui sequence diagram: request with escrow, bind a future round, receive drand beacon, submit proof, verify and return randomness; refund after timeout"
+    "demo": "https://youtu.be/fqdy0rccu-Q",
+    "image": "kamui.png",
+    "caption": "Fulfilled request · 92,398, dice roll, coin flip, and full VRF output · demo at 2:22",
+    "alt": "Kamui fulfilled request showing Random number generated, result 92,398, dice roll 6, coin flip Tails, and expanded 256-bit VRF output",
+    "demo_label": "Watch demo",
+    "source": "https://github.com/mangekyou-labs/kamui",
+    "architecture": "https://docs.google.com/document/d/1nKmlUuggSQDxrbMSGgY1MRPvZ82dzyD_DYwT4Osuow4/edit?usp=sharing"
   },
   {
     "id": "mgk-exchange",

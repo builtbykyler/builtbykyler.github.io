@@ -6,6 +6,7 @@
 .project-diagram .project-copy{max-width:700px}
 .sequence-dialog img{min-width:800px}
 nav a{min-height:40px;display:inline-flex;align-items:center}
+.project-links{flex-wrap:wrap;row-gap:12px}
 .project-links a{min-height:40px;display:inline-flex;align-items:center}
 .dialog-bar button{min-height:40px}
 @media(max-width:560px){.project-diagram .image-button img{min-width:650px}.project-diagram .image-button{overflow:auto}.project-diagram .enlarge{position:sticky;display:block;width:max-content;margin-left:auto;bottom:8px;right:8px}.project-diagram figcaption:after{content:' · Swipe to read the sequence.'}}
